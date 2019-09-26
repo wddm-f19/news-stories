@@ -18,4 +18,4 @@
 
 Execute if you have time:
 
-- Crop the height of the images ()
+- Crop the height of the images using CSS (so they don't grow to be too tall as the page grows in width)
