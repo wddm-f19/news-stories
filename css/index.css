@@ -1,0 +1,19 @@
+body {
+  background-color: lightgrey;
+}
+.stories {
+  text-align: center;
+}
+.news {
+  background-color: white;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 30em;
+  margin: 1em 0;
+}
+.news-lead {
+  text-align: center;
+}
+.news-img {
+  max-width: 100%;
+}
