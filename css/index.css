@@ -2,13 +2,18 @@ body {
   background-color: lightgrey;
 }
 .stories {
-  text-align: center;
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-column-gap: 1%;
 }
 .news {
   background-color: white;
   display: inline-block;
   overflow: hidden;
-  max-width: 30em;
+  box-shadow: 6px 6px 6px black ;
+
   margin: 1em 0;
 }
 .news-lead {
