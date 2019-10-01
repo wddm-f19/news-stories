@@ -1,3 +1,7 @@
+*{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
 body {
   background-color: lightgrey;
 }
@@ -7,18 +11,20 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 display:grid;
 grid-template-columns: 1fr 1fr 1fr;
 grid-column-gap: 1%;
+max-width: 80em;
+margin:auto;
+
 }
 .news {
   background-color: white;
   display: inline-block;
-  overflow: hidden;
+  /* overflow: hidden; */
   box-shadow: 6px 6px 6px black ;
-
   margin: 1em 0;
+  grid-template-columns: 1em 1fr 1em;
 }
-.news-lead {
-  text-align: center;
-}
+
 .news-img {
+  width: auto;
   max-width: 100%;
 }
