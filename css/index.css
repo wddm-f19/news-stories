@@ -18,13 +18,36 @@ margin:auto;
 .news {
   background-color: white;
   display: inline-block;
-  /* overflow: hidden; */
-  box-shadow: 6px 6px 6px black ;
+  overflow: hidden;
+  box-shadow: 0 0 1em black ;
   margin: 1em 0;
   grid-template-columns: 1em 1fr 1em;
+  border-radius: 1em;
+  /* border: 0.5em black; */
 }
 
 .news-img {
   width: auto;
   max-width: 100%;
 }
+
+.pagination{
+  marging:auto;
+  text-align: center;
+}
+.new-btn{
+  display:block;
+  width: 80%;
+  background-color: grey;
+  color: white;
+  padding: 0.5em;
+  margin:1em 1em 1em 1em;
+  text-align: center;
+  font:0.8em helvetiva, sans-serif;
+  text-transform: capitalize;
+  /* box-shadow: 0.25em 0.25em 0 grey; */
+}
+.new-btn:hover{
+  background-color: darkslategrey;
+}
+
