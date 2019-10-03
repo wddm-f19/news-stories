@@ -1,27 +1,27 @@
-*{
+.h1-h1{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2em;
+}
+.h2-h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1em;
+  
+  text-align: center;
+}
 
-}
-body {
-  background-color: lightgrey;
-}
-.stories {
-text-align: center;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-display:grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-column-gap: 1%;
-max-width: 80em;
-margin:auto;
+.p-p{
+  margin: 1em 0 0 1em;
+  text-align: center;
+  font:1em Helvetica, sans-serif;
 
 }
 .news {
   background-color: white;
-  display: inline-block;
+  /* display: inline-block; */
   overflow: hidden;
   box-shadow: 0 0 1em black ;
   margin: 1em 0;
-  grid-template-columns: 1em 1fr 1em;
+  /* grid-template-columns: 1em 1fr 1em; */
   border-radius: 1em;
   /* border: 0.5em black; */
 }
@@ -32,7 +32,7 @@ margin:auto;
 }
 
 .pagination{
-  marging:auto;
+  margin:auto;
   text-align: center;
 }
 .new-btn{
@@ -50,4 +50,50 @@ margin:auto;
 .new-btn:hover{
   background-color: darkslategrey;
 }
+/* mobile layout */
 
+@media screen and (min-width:12em) {
+  body {
+    background-color: #a7c0cd;
+  }
+  .stories {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display:grid;
+    min-width:12em;
+    /* max-width: 80em; */
+    margin:auto;
+      }
+
+}
+@media screen and (min-width:30em) {
+  body {
+    background-color: #78909c;
+  }
+  .stories {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2%;
+    /* max-width: 80em; */
+    margin:auto;
+}
+
+/* web layout */
+@media screen and (min-width:60em) {
+  body { 
+    background-color: #4b636e;
+    /* color:white; */
+  }
+    .stories {
+      text-align: center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 2%;
+      max-width: 80em;
+      margin:auto;
+      
+      }
+  } 
